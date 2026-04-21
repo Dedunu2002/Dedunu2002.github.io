@@ -1,0 +1,19 @@
+[
+  {
+    "title": "MAC Engineering Company Website",
+    "description": "A responsive, professional business website for MAC Engineering.",
+    "link": "https://macengineering.lk/",
+    "languages": "HTML5, CSS3, JavaScript, PHP, MySQL",
+    "features": "Fully responsive front-end|Dynamic live project counter|Automated email system|Secure admin login",
+    "video_link": "https://youtu.be/YOUR_VIDEO_ID"
+  },
+  {
+    "title": "FitZone Fitness Center",
+    "description": "A modern, responsive gym website for fitness enthusiasts.",
+    "link": "https://github.com/Dedunu2002/GYMM.git",
+    "languages": "HTML5, CSS3, JavaScript, PHP, MySQL",
+    "features": "Home page with gym overview|Membership plan explorer|Trainer profiles|Contact form",
+    "video_link": null
+  }
+  
+]
