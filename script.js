@@ -87,6 +87,13 @@ function fetchProjects() {
 /* ===========================
    UI DESIGNS GALLERY
 =========================== */
+
+// Clean fallback called by onerror on broken images
+function imgFallback(img) {
+    var thumb = img.parentElement;
+    thumb.innerHTML = '<div class="design-placeholder"><i class="bx bx-image"></i></div>';
+}
+
 function fetchDesigns() {
     fetch('designs.json')
         .then(r => r.json())
@@ -105,8 +112,7 @@ function fetchDesigns() {
                 card.dataset.category = design.category || 'Other';
 
                 const imgHtml = design.image_url
-                    ? '<img src="' + design.image_url + '" alt="' + design.title + '" loading="lazy" ' +
-                      'onerror="this.parentElement.innerHTML=\'<div class=\\\"design-placeholder\\\"><i class=\\\"bx bx-image\\\"></i></div>\'">'
+                    ? '<img src="' + design.image_url + '" alt="' + design.title + '" loading="lazy" onerror="imgFallback(this)">'
                     : '<div class="design-placeholder"><i class="bx bx-image"></i></div>';
 
                 card.innerHTML =
