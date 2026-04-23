@@ -1,19 +1,51 @@
 [
   {
+    "id": "1",
     "title": "MAC Engineering Website UI",
-    "category": "Web App",
-    "image_url": "https://drive.google.com/uc?export=view&id=REPLACE...",
-    "preview_url": "https://macengineering.lk/",
-    "tools": "Figma, CSS",
-    "created_at": "2026-04-21 12:24:37"
+    "category": "Website",
+    "image_url": "data:image/png;base64,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",
+    "preview_url": "https://www.figma.com/design/WnTgu7FrcroSqr2PagHeLI/Untitled?node-id=0-1&t=oLHRO7zyeSMlTx7N-1",
+    "tools": "Figma"
   },
   {
+    "id": "2",
     "title": "FitZone Gym App UI",
-    "category": "Web App",
-    "image_url": "https://drive.google.com/uc?export=view&id=REPLACE...",
-    "preview_url": "https://github.com/Dedunu2002/GYMM.git",
-    "tools": "Figma",
-    "created_at": "2026-04-21 12:24:37"
-  }
+    "category": "Website",
+    "image_url": "https://media.istockphoto.com/id/2075354173/photo/fitness-couple-is-doing-kettlebell-twist-in-a-gym-togehter.jpg?s=612x612&w=0&k=20&c=lfs1V1d0YB33tn72myi6FElJnylPJYYM9lW5ZhlnYqY=",
+    "preview_url": "https://www.figma.com/design/7fDpuXzgN95X3RhvGBdN2K/Untitled?node-id=3-5&t=oLHRO7zyeSMlTx7N-1",
+    "tools": "Figma"
+  },
   
+  {
+    "id": "3",
+    "title": "K-Beauty Online Store",
+    "category": "Website",
+    "image_url": "https://media.istockphoto.com/id/1481995894/photo/a-girl-dress-with-a-bouquet-of-large-pink-peonies-stand-in-blossom.jpg?s=612x612&w=0&k=20&c=9ifYCvQPOf2w09PejR5xSQ0qrbkAvM09920JNr9l0-g=",
+    "preview_url": "https://www.figma.com/design/BgQhrXu5j36Uci44Zrg86C/Untitled?node-id=1-2&t=PYSrvHxPNpIZ2vhS-1",
+    "tools": "Figma"
+  },
+  {
+    "id": "4",
+    "title": "ZooParc Website UI",
+    "category": "Website",
+    "image_url": "https://media.istockphoto.com/id/905049160/vector/two-cute-panda-in-a-bamboo-forest.jpg?s=612x612&w=0&k=20&c=W0Hm1mdQOFccvl84AoXriR5ZIUsUvAa1_XuTrb61nqc=",
+    "preview_url": "https://www.figma.com/design/zn1zfVsxCnKgszSxfnOmKf/Untitled?node-id=1-146&t=oLHRO7zyeSMlTx7N-1",
+    "tools": "Figma"
+  },
+  {
+    "id": "5",
+    "title": "Jounaling website",
+    "category": "Website",
+    "image_url": "https://www.shutterstock.com/image-vector/purple-abstract-hearts-smooth-colour-260nw-2677875595.jpg",
+    "preview_url": "https://www.figma.com/design/VUdVyt1vqVrmpnULqLsIrA/Untitled?node-id=1-2&t=PYSrvHxPNpIZ2vhS-1",
+    "tools": "Figma"
+  },
+  {
+    "id": "6",
+    "title": "Flyer for Job Fair",
+    "category": "Flyer",
+    "image_url": "https://media.istockphoto.com/id/2218767117/photo/job-fair-and-recruitment-technology-concept-businessman-uses-laptop-with-icons-representing.jpg?s=612x612&w=0&k=20&c=dN-1Iq0dwFoIDwWHr5TGSCeiNsHrAMkCB6EDFikQCdU=",
+    "preview_url": "https://www.figma.com/design/qIdefQLIqZLqwLEm6hRQiH/Untitled?node-id=0-1&t=87SyC4BpeabGXfA7-1",
+    "tools": "Figma"
+  }
 ]
