@@ -1,19 +1,67 @@
 [
   {
+    "id": "1",
     "title": "MAC Engineering Company Website",
-    "description": "A responsive, professional business website for MAC Engineering.",
+    "description": "A responsive, professional business website for MAC Engineering, designed to showcase services, completed projects and client engagement. Features a dynamic projects section, live stats and integrated contact forms.",
     "link": "https://macengineering.lk/",
     "languages": "HTML5, CSS3, JavaScript, PHP, MySQL",
-    "features": "Fully responsive front-end|Dynamic live project counter|Automated email system|Secure admin login",
-    "video_link": "https://youtu.be/YOUR_VIDEO_ID"
+    "features": "Fully responsive front-end interface|Dynamic live project counter via PHP & MySQL|Automated email notification system|Secure admin login system|Cross-device compatibility (desktop, tablet, mobile)|Domain hosting & deployment via Namecheap and cPanel",
+    "video_link": "https://youtu.be/FnG8vIvIkmM"
   },
   {
+    "id": "2",
     "title": "FitZone Fitness Center",
-    "description": "A modern, responsive gym website for fitness enthusiasts.",
+    "description": "A modern, responsive gym website for fitness enthusiasts. Showcases membership plans, trainer profiles, fitness programs and an easy-to-use contact form.",
     "link": "https://github.com/Dedunu2002/GYMM.git",
     "languages": "HTML5, CSS3, JavaScript, PHP, MySQL",
-    "features": "Home page with gym overview|Membership plan explorer|Trainer profiles|Contact form",
+    "features": "Home page with gym overview and services|Membership plan explorer|Trainer profile section|Fitness programs for all levels|Contact form for inquiries|Fully responsive on mobile and desktop",
+    "video_link": "https://youtu.be/N45zOyzamSM"
+  },
+  {
+    "id": "3",
+    "title": "ZooParc Zoological Website",
+    "description": "A database-driven website for zoo visitors, volunteers and admins. Built with PHP, MySQL and JavaScript for dynamic, role-based functionality.",
+    "link": "https://github.com/Dedunu2002/zooparc-website",
+    "languages": "HTML5, CSS3, PHP, MySQL, JavaScript",
+    "features": "Visitor information and exhibit pages|Volunteer registration and management|Admin dashboard for content control|Dynamic content powered by PHP & MySQL",
+    "video_link": "https://youtu.be/f01TFtA_BD0"
+  },
+  {
+    "id": "4",
+    "title": "City Nursing Home Management System",
+    "description": "A Java OOP-based desktop application with a JFrame GUI to automate hospital operations — managing patients, doctors, appointments and billing in one efficient system.",
+    "link": "https://github.com/Dedunu2002/Hospital-Management-System.git",
+    "languages": "Java OOP, Java Swing (JFrame), File Storage, Apache NetBeans",
+    "features": "Patient registration and profile management|Doctor and staff records|Appointment scheduling system|Billing with discount calculation|Report generation (patients, payments)|File storage and database integration",
+    "video_link": null
+  },
+  {
+    "id": "5",
+    "title": "LuxeVista Mobile App",
+    "description": "A luxury resort booking and service reservation mobile app built with Android Studio. Guests can book rooms, reserve spa or restaurant services, manage profiles and leave reviews — all in one elegant app.",
+    "link": "https://github.com/Dedunu2002/LuxeVista-Hotel.git",
+    "languages": "Java, XML, SQLite, Android Studio",
+    "features": "Splash screen with branded onboarding|Secure login and registration with validation|Dashboard with quick-access cards|Room search and booking with filters|Service reservations (Room Service, Spa, Restaurant)|My Reservations list with SQLite storage|Review management after completed bookings|Profile management and booking notifications",
+    "video_link": null
+  },
+   {
+    "id": "6",
+    "title": "K-Beauty Online Store ",
+    "description": "A database-driven website for korean fashion lovers. Built with HTML, CSS, PHP, MySQL and JavaScript for dynamic, role-based functionality using Pastel Korean aesthetic design, Fully responsive (mobile,desktop), Smooth animations and hover effects, Live search overlay, Quick view modal, Toast notifications, Scroll reveal animations and Mega dropdown navigation",
+    "link": "https://github.com/Dedunu2002/kbeauty-store",
+    "languages": "HTML5, CSS3, PHP, MySQL, JavaScript",
+    "features": "Browse products by category, filter, and search|Wishlist — save favorite products|Shopping cart with quantity controls|Coupon code discounts|Checkout with shipping details|Multiple payment methods (COD, Card, Bank Transfer)|Order history and tracking|Product reviews and ratings|User account with profile editing|Secure login/register with password hashing",
+    "video_link": null
+  },
+  {
+    "id": "7",
+    "title": "Journaling website",
+    "description": "A database-driven website for users who loves journalling and who trust law of attraction. Built with HTML, CSS, PHP, MySQL and JavaScript for dynamic, role-based functionality using calm, aesthetic design and Fully responsive (mobile,desktop)",
+    "link": "https://github.com/Dedunu2002/aesthetic-journaling",
+    "languages": "HTML5, CSS3, PHP, MySQL, JavaScript",
+    "features": "",
     "video_link": null
   }
-  
+
+
 ]
